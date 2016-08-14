@@ -9,7 +9,7 @@ Requirements:
 >> Matlab and Simulink.
 
 Sample HIL simulation models are:
-1) HIL testing of torque control knob of engine dynanometer.
+1) HIL testing of torque control knob of engine dynanometer. (https://youtu.be/6i_u7KHAUhQ)
   Files: 'EngineTorqueControl.slx' and 'arduino_daq.slx'
   'arduino_daq.slx' is to be flashed on Arduino board to receive data from analog input and send it to simulink via serial port.
   'EngineTorqueControl.slx' contain the model of engine and dyno controller. Also the input serial data from arduino is liked to controller.
